@@ -81,8 +81,8 @@
       "type" : "org.thingsboard.rule.engine.telemetry.TbMsgTimeseriesNode"
     }, {
       "additionalInfo" : {
-        "layoutX" : 754,
-        "layoutY" : 47
+        "layoutX" : 751,
+        "layoutY" : 78
       },
       "configuration" : {
         "processingSettings" : {
@@ -137,8 +137,8 @@
       "type" : "org.thingsboard.rule.engine.filter.TbMsgTypeSwitchNode"
     }, {
       "additionalInfo" : {
-        "layoutX" : 754,
-        "layoutY" : 261
+        "layoutX" : 752,
+        "layoutY" : 229
       },
       "configuration" : {
         "scriptLang" : "TBEL",
@@ -164,8 +164,8 @@
       "type" : "org.thingsboard.rule.engine.action.TbLogNode"
     }, {
       "additionalInfo" : {
-        "layoutX" : 754,
-        "layoutY" : 374
+        "layoutX" : 752,
+        "layoutY" : 302
       },
       "configuration" : {
         "scriptLang" : "TBEL",
@@ -191,8 +191,8 @@
       "type" : "org.thingsboard.rule.engine.action.TbLogNode"
     }, {
       "additionalInfo" : {
-        "layoutX" : 754,
-        "layoutY" : 463
+        "layoutX" : 753,
+        "layoutY" : 379
       },
       "configuration" : {
         "timeoutInSeconds" : 60
