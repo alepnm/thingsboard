@@ -9,7 +9,7 @@
     "externalId" : null,
     "firstRuleNodeId" : {
       "entityType" : "RULE_NODE",
-      "id" : "c83e7410-3638-11f0-acff-81e7df448caf"
+      "id" : "2d575f40-3636-11f0-acff-81e7df448caf"
     },
     "id" : {
       "entityType" : "RULE_CHAIN",
@@ -32,17 +32,13 @@
       "fromIndex" : 3,
       "toIndex" : 1,
       "type" : "True"
-    }, {
-      "fromIndex" : 4,
-      "toIndex" : 3,
-      "type" : "True"
     } ],
-    "firstNodeIndex" : 4,
+    "firstNodeIndex" : 3,
     "nodes" : [ {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 828,
-        "layoutY" : 50
+        "layoutX" : 724,
+        "layoutY" : 48
       },
       "configuration" : {
         "timeoutInSeconds" : 60
@@ -67,8 +63,8 @@
     }, {
       "additionalInfo" : {
         "description" : "Siunčiam pranešimą PS-BOAD-02 devaisui",
-        "layoutX" : 536,
-        "layoutY" : 52
+        "layoutX" : 432,
+        "layoutY" : 50
       },
       "configuration" : {
         "scriptLang" : "TBEL",
@@ -95,8 +91,8 @@
     }, {
       "additionalInfo" : {
         "description" : "",
-        "layoutX" : 676,
-        "layoutY" : 155
+        "layoutX" : 572,
+        "layoutY" : 153
       },
       "configuration" : {
         "originatorSource" : "ENTITY",
@@ -128,19 +124,19 @@
     }, {
       "additionalInfo" : {
         "description" : "Jai aktyvus PS-BOARD-01 Output1 išejimas",
-        "layoutX" : 383,
-        "layoutY" : 154
+        "layoutX" : 279,
+        "layoutY" : 152
       },
       "configuration" : {
         "scriptLang" : "TBEL",
         "jsScript" : "return msg.temperature > 20;",
-        "tbelScript" : "return msg.output1 != false && metadata.deviceName === 'PS-BOARD-01';"
+        "tbelScript" : "return msg.output1 != null && metadata.deviceName === 'PS-BOARD-01';"
       },
       "configurationVersion" : 0,
       "createdTime" : 0,
       "debugSettings" : {
         "allEnabled" : false,
-        "allEnabledUntil" : 1747827773649,
+        "allEnabledUntil" : 1747992138743,
         "failuresEnabled" : false
       },
       "externalId" : null,
@@ -153,28 +149,6 @@
       "ruleChainId" : null,
       "singletonMode" : false,
       "type" : "org.thingsboard.rule.engine.filter.TbJsFilterNode"
-    }, {
-      "additionalInfo" : {
-        "description" : "Ar čia to reikia? Message type ir taip aišku, kad Post Telemetry",
-        "layoutX" : 223,
-        "layoutY" : 53
-      },
-      "configuration" : {
-        "messageTypes" : [ "POST_TELEMETRY_REQUEST" ]
-      },
-      "configurationVersion" : 0,
-      "createdTime" : 0,
-      "debugSettings" : null,
-      "externalId" : null,
-      "id" : {
-        "entityType" : "RULE_NODE",
-        "id" : "c83e7410-3638-11f0-acff-81e7df448caf"
-      },
-      "name" : "Post Telemetry",
-      "queueName" : null,
-      "ruleChainId" : null,
-      "singletonMode" : false,
-      "type" : "org.thingsboard.rule.engine.filter.TbMsgTypeFilterNode"
     } ],
     "ruleChainConnections" : null
   },

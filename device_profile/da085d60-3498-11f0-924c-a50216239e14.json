@@ -5,10 +5,7 @@
     "defaultDashboardId" : null,
     "defaultEdgeRuleChainId" : null,
     "defaultQueueName" : null,
-    "defaultRuleChainId" : {
-      "entityType" : "RULE_CHAIN",
-      "id" : "d7699390-357d-11f0-acff-81e7df448caf"
-    },
+    "defaultRuleChainId" : null,
     "description" : "Default device profile",
     "externalId" : null,
     "firmwareId" : null,

@@ -195,7 +195,7 @@
             "datasources" : [ ],
             "targetDevice" : {
               "type" : "device",
-              "deviceId" : "36637b70-353a-11f0-acff-81e7df448caf"
+              "deviceId" : "6238f920-37b3-11f0-acff-81e7df448caf"
             },
             "borderRadius" : null
           },
@@ -388,7 +388,7 @@
             "datasources" : [ ],
             "targetDevice" : {
               "type" : "device",
-              "deviceId" : "36637b70-353a-11f0-acff-81e7df448caf"
+              "deviceId" : "6238f920-37b3-11f0-acff-81e7df448caf"
             },
             "borderRadius" : null
           },
@@ -581,7 +581,7 @@
             "datasources" : [ ],
             "targetDevice" : {
               "type" : "device",
-              "deviceId" : "36637b70-353a-11f0-acff-81e7df448caf"
+              "deviceId" : "6238f920-37b3-11f0-acff-81e7df448caf"
             },
             "borderRadius" : null
           },
@@ -774,7 +774,7 @@
             "datasources" : [ ],
             "targetDevice" : {
               "type" : "device",
-              "deviceId" : "36637b70-353a-11f0-acff-81e7df448caf"
+              "deviceId" : "6238f920-37b3-11f0-acff-81e7df448caf"
             },
             "borderRadius" : null
           },
@@ -791,7 +791,7 @@
             "datasources" : [ {
               "type" : "device",
               "name" : "",
-              "deviceId" : "36637b70-353a-11f0-acff-81e7df448caf",
+              "deviceId" : "6238f920-37b3-11f0-acff-81e7df448caf",
               "dataKeys" : [ {
                 "name" : "output1",
                 "type" : "timeseries",
@@ -1427,7 +1427,7 @@
             "datasources" : [ {
               "type" : "device",
               "name" : "",
-              "deviceId" : "36637b70-353a-11f0-acff-81e7df448caf",
+              "deviceId" : "6238f920-37b3-11f0-acff-81e7df448caf",
               "dataKeys" : [ {
                 "name" : "input1",
                 "type" : "timeseries",
@@ -2093,7 +2093,7 @@
             "datasources" : [ ],
             "targetDevice" : {
               "type" : "device",
-              "deviceId" : "36637b70-353a-11f0-acff-81e7df448caf"
+              "deviceId" : "6238f920-37b3-11f0-acff-81e7df448caf"
             }
           },
           "row" : 0,
@@ -2139,7 +2139,7 @@
             "datasources" : [ ],
             "targetDevice" : {
               "type" : "device",
-              "deviceId" : "36637b70-353a-11f0-acff-81e7df448caf"
+              "deviceId" : "6238f920-37b3-11f0-acff-81e7df448caf"
             }
           },
           "row" : 0,
@@ -2185,7 +2185,7 @@
             "datasources" : [ ],
             "targetDevice" : {
               "type" : "device",
-              "deviceId" : "36637b70-353a-11f0-acff-81e7df448caf"
+              "deviceId" : "6238f920-37b3-11f0-acff-81e7df448caf"
             }
           },
           "row" : 0,
@@ -2231,7 +2231,7 @@
             "datasources" : [ ],
             "targetDevice" : {
               "type" : "device",
-              "deviceId" : "36637b70-353a-11f0-acff-81e7df448caf"
+              "deviceId" : "6238f920-37b3-11f0-acff-81e7df448caf"
             }
           },
           "row" : 0,

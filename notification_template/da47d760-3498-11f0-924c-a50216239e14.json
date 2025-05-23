@@ -18,6 +18,22 @@
           "body" : "Severity: ${alarmSeverity}, originator: ${alarmOriginatorEntityType} '${alarmOriginatorName}'",
           "enabled" : true,
           "subject" : "New alarm '${alarmType}'"
+        },
+        "MICROSOFT_TEAMS" : {
+          "method" : "MICROSOFT_TEAMS",
+          "body" : "dddssd",
+          "button" : {
+            "dashboardId" : null,
+            "dashboardState" : null,
+            "enabled" : false,
+            "link" : null,
+            "linkType" : null,
+            "setEntityIdInState" : false,
+            "text" : null
+          },
+          "enabled" : true,
+          "subject" : "Įspėjimas",
+          "themeColor" : ""
         }
       }
     },

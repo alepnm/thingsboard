@@ -1,0 +1,23 @@
+{
+  "entityType" : "NOTIFICATION_TARGET",
+  "entity" : {
+    "configuration" : {
+      "type" : "MICROSOFT_TEAMS",
+      "channelName" : "Testas",
+      "description" : null,
+      "email" : null,
+      "firstName" : null,
+      "id" : "https://prod-44.northeurope.logic.azure.com:443/workflows/db92c682e390414e8b8208bd1513e4c5/triggers/manual/paths/invoke?api-version=2016-06-01&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=F5HVtyQ1bvvKXg2aiW-Sto8XcfZM9_KrUe5cascHkSg",
+      "lastName" : null,
+      "title" : "Testas",
+      "useOldApi" : false,
+      "webhookUrl" : "https://prod-44.northeurope.logic.azure.com:443/workflows/db92c682e390414e8b8208bd1513e4c5/triggers/manual/paths/invoke?api-version=2016-06-01&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=F5HVtyQ1bvvKXg2aiW-Sto8XcfZM9_KrUe5cascHkSg"
+    },
+    "externalId" : null,
+    "id" : {
+      "entityType" : "NOTIFICATION_TARGET",
+      "id" : "a5597f10-3707-11f0-acff-81e7df448caf"
+    },
+    "name" : "Teams"
+  }
+}
